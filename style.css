@@ -1,0 +1,135 @@
+#titlu{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: 10px;
+    padding-left: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-left: 60px;
+}
+#h2titlu{
+    
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    padding-left: 50px;
+    font-weight: 250;
+}
+
+/*componente meniu*/
+.meniu {
+  display: flex;
+  justify-content: flex-end; /* Mută meniul în partea dreaptă a containerului */
+  margin: 5px;
+  font-size: 20px;
+  font-family: "Monserrat";
+}
+.meniu div{
+  margin: 0 10px; /*butoanele din meniu*/
+  
+}
+.meniu a{
+  text-decoration: none;/*anchor-urile din meniu iti baga underline*/
+  color: black; /*culoare butoane*/
+}
+.meniufix{
+  position: fixed; /* Meniul va fi fixat chiar și pe măsură ce te deplasezi pe pagină */
+  right:0;
+  padding-right: 200px;
+  top: 100px;
+}
+
+/*fiecare head, individual*/
+#h1-despre{
+  padding-left: 50px;
+  padding-top: 150px;
+  font-size: 45px; 
+}
+#h1-preturi{
+  padding-left: 50px;
+  padding-top: 150px;
+  font-size: 45px;
+}
+#h1-lista{
+  padding-left: 80px;
+  padding-top: 150px;
+  font-size: 45px;
+}
+#h1-contact{
+  padding-left: 80px;
+  padding-top: 150px;
+  color: aliceblue;
+  font-size: 45px;
+}
+
+/*fiecare background*/
+#despre{
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+
+}
+#preturi{
+  background-image: url("/img/1.jpg");
+  background-position-x: center;
+  background-attachment: fixed;
+  transition: background 0.3s;
+  height: 102vh;
+  margin: 0;
+  padding: 0;
+}
+#lista{
+  background-image: url("/img/2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  transition: background 0.3s;
+  height: 102vh;
+  margin: 0;
+  padding: 0;
+}
+#contact{
+  background-image: url("/img/3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  transition: background 0.3s;
+  height: 102vh;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*fiecare paragraf individual*/
+#p-despre{
+  font-size: 25px;
+  padding-left: 80px;
+  font-style:italic;
+}
+#p-preturi{
+  font-size: 25px;
+  padding-left: 80px;
+  color:aliceblue;
+}
+#p-lista{
+  font-size: 25px;
+  padding-left: 80px;
+}
+#p-contact{
+  font-size: 25px;
+  padding-left: 80px;
+  color:aliceblue;
+}
+/*body*/
+#body{
+  margin: 0;
+}
